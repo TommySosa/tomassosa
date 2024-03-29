@@ -26,8 +26,15 @@ export default function Proyects() {
             urlGithub: "https://github.com/TommySosa/campus",
             urlDemo: null,
             description: "Trabajo final de la carrera, cuenta con automatizacion de corrección de ejercicios y creación de estos con IA, simplificación de procesos administrativos, como inscripciones, carga de notas,etc. Se conecta a través de la API a un sistema local desarrollado en Python para reconocimiento facial para controlar la asistencia. Desarrollado con Nextjs, Tailwind, Nextjs, Next-auth, MySql, Express, OpenAI API, Prisma."
+        },
+        {
+            id: 4,
+            title: "Calculadora médica",
+            image: "/calculadora_medica.webp",
+            urlGithub: null,
+            urlDemo: "https://play.google.com/store/apps/details?id=com.tomassosa.calculadoramedica&pli=1",
+            description: "Calcula la dosis, goteo y el IMC. Destinado a estudiantes y/o profesionales del área de salud."
         }
-
     ]
 
     return (

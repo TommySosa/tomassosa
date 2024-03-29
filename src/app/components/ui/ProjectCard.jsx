@@ -18,9 +18,13 @@ export default function ProyectCard({ data }) {
             <h3 className="mb-4 text-xl">{title}</h3>
             <Image src={image} alt="Image" width={200} height={200} className="w-full md:w-[200px] rounded-2xl h-auto" />
             <div className="flex gap-5 mt-5">
-                <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
-                    Github
-                </Link>
+                {urlGithub && (
+                    <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
+                        Github
+                    </Link>
+                )
+                }
+
                 {urlDemo && (
                     <Link href={urlDemo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
                         Live demo
