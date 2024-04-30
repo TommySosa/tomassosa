@@ -4,13 +4,27 @@ export default function TimeLine() {
     const data = [
         {
             id: 1,
-            title: ".NET Developer",
-            subtitle: "Ministerio de Educación de Tucumán",
-            description: "Participé en el desarrollo y mejora del Sistema Integrado del Ministerio de Educación (SIME) en el área de Gestión Económica Financiera. Destaco por el desarrollo de nuevas vistas/ABM, importación y exportación de datos en Excel, resolución de problemas y cumplimiento de plazos. Utilicé patrones como Modelo-Vista-Controlador y N-Capas, y principios ágiles con Gitlab.",
-            date: "Oct 2023 - Actualidad",
+            title: "Software Developer",
+            subtitle: "Censys S.A",
+            description: "Integro el equipo Scrum del banco VOII",
+            date: "Abril 2024 - Actualidad"
         },
         {
             id: 2,
+            title: "Full Stack Developer",
+            subtitle: "Municipalidad de Yerba Buena",
+            description: "En mi corta trayectoria participé en el desarrollo y migración del sistema de padrones del Municipio.",
+            date: "Marzo 2024 - Abril 2024"
+        },
+        {
+            id: 3,
+            title: ".NET Developer",
+            subtitle: "Ministerio de Educación de Tucumán",
+            description: "Participé en el desarrollo y mejora del Sistema Integrado del Ministerio de Educación (SIME) en el área de Gestión Económica Financiera. Destaco por el desarrollo de nuevas vistas/ABM, importación y exportación de datos en Excel, resolución de problemas y cumplimiento de plazos. Utilicé patrones como Modelo-Vista-Controlador y N-Capas, y principios ágiles con Gitlab.",
+            date: "Oct 2023 - Abril 2024",
+        },
+        {
+            id: 4,
             title: "Full Stack Developer",
             subtitle: "Proyectos personales y universitarios",
             description: "Diseño y desarrollo full stack con React, Next.js, Express, MySQL, SQL Server, y ASP.NET Core MVC. Tanto sólo como en equipo, en varios casos coordinando y liderando el equipo aplicando SCRUM.",
